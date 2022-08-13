@@ -42,5 +42,6 @@ submitBtn.addEventListener('click', function(){
     let leftActnum = parseFloat(leftAct.innerText);
     if(generateNums.value !== display.value){
         leftAct.innerText = leftActnum - 1;
+        document.getElementById('act-btn').style.display = "block";
     }
 });
