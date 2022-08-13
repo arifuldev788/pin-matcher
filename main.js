@@ -44,7 +44,3 @@ submitBtn.addEventListener('click', function(){
         leftAct.innerText = leftActnum - 1;
     }
 });
-let leftAct = document.getElementById('left-act').innerText;
-if(leftAct < 1){
-    document.getElementById("submit-btn").disabled = true;
-}
