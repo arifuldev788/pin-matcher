@@ -32,6 +32,7 @@ submitBtn.addEventListener('click', function(){
     if(generateNums.value == display.value){
         notifySuccess.style.display = "block";
         notifyFail.style.display = "none";
+        window.location.href = "https://www.facebook.com/arifulislam.788";
     }else{
         notifyFail.style.display = "block";
         notifySuccess.style.display = "none";
